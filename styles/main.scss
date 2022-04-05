@@ -1,0 +1,43 @@
+@import "~jspsych/css/jspsych.css";
+
+.jspsych-display-element {
+  background-color: #ffffff;
+}
+
+.video-matching-trial{
+  display: flex;
+  margin-bottom: 15px;
+}
+
+video {
+  height: 100%;
+  object-fit: cover;
+}
+
+.image-matching-trial{
+  display: flex;
+  height: 120%;
+}
+
+p{
+  justify-content: center;
+}
+
+.video {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.image {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 300px;
+}
+
+img{
+  width: 100%;
+}
+
+.prompt{
+  justify-content: center !important;
+}
